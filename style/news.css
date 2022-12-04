@@ -1,27 +1,30 @@
 .news{
     height:600px;
     margin-top: 127px;
+    display: block;
 }
 .news__title{
     margin-bottom: 51px;
-    display: block;
+}
+.news__list{
+    display:inline-block;
 }
 .news__item{
     width: 557px;
     height: 394px;
     border-radius: 5px;
     padding: 252.5px 31px 26px;
-    display: inline-block;
-    margin-bottom: 57.5px;
+    display: block;
+    float: left;
 }
 li.news__item:first-child{
     margin-right: 23px;
 }
 .news__plain{
-    background: url(/img/plain.jpg);
+    background: url(../img/plain.jpg);
 }
 .news__surfer{
-    background: url(/img/Surfer.jpg);
+    background: url(../img/Surfer.jpg);
 }
 .news__date{
     font-style: normal;
@@ -48,40 +51,51 @@ li.news__item:first-child{
     height: 32px;
 }
 .paginator__container{
-    margin: 0 auto 29px;
+    margin: 47px auto 29px 382px;
     width: 500px;
 }
 .paginator__display{
-    float:left;
     height: 32px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
-    margin-right: 25px;
+    line-height: 32px;
+    margin-right: 20px;
     color: #FFFFFF;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.paginator__list{
+    display: inline-block;
+    vertical-align: middle;
 }
 .paginator__item{
     display: inline-block;
-    width: 32px;
-    height: 32px;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 6px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 21px;
-    color: #FFFFFF;
-    margin-right: 2px;
-
+    vertical-align: middle;
 }
 li.paginator__item:last-child{
     margin-right: 0;
 }
-.paginator__item:hover {
-    background:url(/img/Ellipse\ 1.png);
+
+.paginator__link{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-right:0;
+}
+.paginator__item--active .paginator__link{
+    background:#FFFFFF;
+    color: #F5170E;
+}
+.paginator__link:hover{
+    background:#FFFFFF;
     color: #F5170E;
 }

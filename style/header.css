@@ -10,7 +10,7 @@
 }
 
 .header__logo {
-    margin-left: 15px;
+    float:left;
 }
 .header__container{
     position: relative;
