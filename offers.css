@@ -12,7 +12,7 @@
     content:"";
     width: 21px;
     height: 28px;
-    background: url(img/flame.png) no-repeat;
+    background: url(../img/flame.png) no-repeat;
 }
 
 .offers__item {

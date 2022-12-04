@@ -21,10 +21,10 @@ li.news__item:first-child{
     margin-right: 23px;
 }
 .news__plain{
-    background: url(img/plain.jpg);
+    background: url(../img/plain.jpg);
 }
 .news__surfer{
-    background: url(img/Surfer.jpg);
+    background: url(../img/Surfer.jpg);
 }
 .news__date{
     font-style: normal;

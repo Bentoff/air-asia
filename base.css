@@ -60,7 +60,7 @@ img {
     position: relative;
 }
 .wrapper__content--main {
-    background: url(img/background.jpg);
+    background: url(../img/background.jpg);
     background-repeat: no-repeat;
     object-fit: cover;
     
