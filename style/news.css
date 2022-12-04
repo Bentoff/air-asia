@@ -1,0 +1,87 @@
+.news{
+    height:600px;
+    margin-top: 127px;
+}
+.news__title{
+    margin-bottom: 51px;
+    display: block;
+}
+.news__item{
+    width: 557px;
+    height: 394px;
+    border-radius: 5px;
+    padding: 252.5px 31px 26px;
+    display: inline-block;
+    margin-bottom: 57.5px;
+}
+li.news__item:first-child{
+    margin-right: 23px;
+}
+.news__plain{
+    background: url(/img/plain.jpg);
+}
+.news__surfer{
+    background: url(/img/Surfer.jpg);
+}
+.news__date{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 12.5px;
+}
+.news__subtitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom:2px;
+    max-width: 417px;
+}
+.news__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3125;
+}
+.paginator {
+    height: 32px;
+}
+.paginator__container{
+    margin: 0 auto 29px;
+    width: 500px;
+}
+.paginator__display{
+    float:left;
+    height: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 25px;
+    color: #FFFFFF;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.paginator__item{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-right: 2px;
+
+}
+li.paginator__item:last-child{
+    margin-right: 0;
+}
+.paginator__item:hover {
+    background:url(/img/Ellipse\ 1.png);
+    color: #F5170E;
+}
