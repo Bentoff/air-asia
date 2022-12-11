@@ -1,7 +1,10 @@
 @import url(style/base.css);
 @import url(style/header.css);
+@import url(style/top-line.css);
+@import url(style/services.css);
 @import url(style/hello.css);
 @import url(style/offers.css);
+@import url(style/inner-section.css);
 @import url(style/news.css);
 @import url(style/about.css);
 @import url(style/footer.css);

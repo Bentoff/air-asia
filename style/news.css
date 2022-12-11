@@ -1,5 +1,5 @@
 .news{
-    height:600px;
+    min-height:600px;
     margin-top: 127px;
     display: block;
 }
@@ -7,19 +7,16 @@
     margin-bottom: 51px;
 }
 .news__list{
-    display:inline-block;
+    display:flex;
+    justify-content: space-between;
 }
 .news__item{
-    width: 557px;
-    height: 394px;
+    width: calc(100% /2 - 12px);
+    min-height: 394px;
     border-radius: 5px;
     padding: 252.5px 31px 26px;
-    display: block;
-    float: left;
-}
-li.news__item:first-child{
-    margin-right: 23px;
-}
+    display: flex;
+}   
 .news__plain{
     background: url(../img/plain.jpg);
 }
@@ -51,33 +48,40 @@ li.news__item:first-child{
     height: 32px;
 }
 .paginator__container{
-    margin: 47px auto 29px 382px;
-    width: 500px;
+    display: flex;
+    justify-content:center;
+
 }
+.paginator__container--main{
+    margin: 52px auto 29px 382px;
+    min-width: 500px;
+}
+
 .paginator__display{
     height: 32px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
-    margin-right: 20px;
+    margin-right: 24px;
     color: #FFFFFF;
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
 }
 .paginator__list{
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    min-width: 235px;
 }
-.paginator__item{
-    display: inline-block;
-    vertical-align: middle;
+.paginator__item {
+    display: flex;
+    text-align:  center;
 }
-li.paginator__item:last-child{
+li.paginator__item:last-child {
     margin-right: 0;
 }
 
-.paginator__link{
+.paginator__link {
     display: inline-block;
     width: 32px;
     height: 32px;
@@ -91,11 +95,11 @@ li.paginator__item:last-child{
     text-decoration: none;
     margin-right:0;
 }
-.paginator__item--active .paginator__link{
+.paginator__item--active .paginator__link {
     background:#FFFFFF;
     color: #F5170E;
 }
-.paginator__link:hover{
+.paginator__link:hover {
     background:#FFFFFF;
     color: #F5170E;
 }

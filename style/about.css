@@ -1,24 +1,31 @@
 .about {
     margin-top: 124px;
-    height: 552px;
+    min-height: 552px;
+    margin-bottom: 53px;
 }
 .about__container {
-    position: relative;
+    display: flex;
 }
 .about__img {
-    float: left;
+    display: flex;
+    height: 505px;
+    max-width: 490px;
 }
 .about__content {
-    position: absolute;
-    top: 97px;
-    right:0;
-    width: 785px;
+    margin-top: 97px;
+    margin-left: -137px;
+    max-width: 68.73%;
     height: 455px;
+    background: #000;
     background:url(../img/mountains.jpg);
     padding-top:70px;
     padding-right: 81px;
     padding-left: 81px;
     padding-bottom: 66px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 68.73%;
 }
 .title--dark {
     color: #000;
@@ -33,5 +40,5 @@
     max-width: 502px;
 }
 .about__button {
-    margin-top: 42px;
+    margin-top: 44px;
 }
