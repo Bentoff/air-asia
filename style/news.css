@@ -53,8 +53,7 @@
 
 }
 .paginator__container--main{
-    margin: 52px auto 29px 382px;
-    min-width: 500px;
+    margin-top: 54px;
 }
 
 .paginator__display{
