@@ -21,13 +21,12 @@
     margin-right: 28px;
     border-radius: 5px;
     background: #FFFFFF;
-    border: none;
+    border: 1px solid #FFFFFF;
     padding: 20px 30px;
     color: #1A1B1E;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.38;
-    /*border: 1px solid #F5170E;*/
 }
 .form__input:last-child{
     margin-right: 0;
@@ -39,6 +38,10 @@
     height: 235px;
     padding: 29px 30px;
     resize: none;
+}
+.form__row .form__input:focus-visible{
+    border: 1px solid #F5170E;
+    transition: border .5s;
 }
 .controls__elem{
     cursor: pointer;

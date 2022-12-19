@@ -73,7 +73,11 @@
 }
 .contacts__dropdown:hover .dropdown__menu{
     right: 0;
-    opacity: 1;
+    opacity: 0.8;
+}
+.contacts__phone:hover{
+    color:  #DA0100;
+    transition: color .5s;
 }
 .dropdown__menu::before{
     content: "";
@@ -93,8 +97,9 @@
     background: url(../img/dropdown.png) no-repeat;
     padding: 22px 19px 15px;
     right: -99999px;
-    opacity: 0;
     transition: opacity 0.4s;
+    mix-blend-mode: normal;
+    opacity: 0;
 }
 .dropdown__item{
     font-weight: 700;

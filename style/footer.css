@@ -33,8 +33,15 @@
     margin-right: 6px;
     display: inline-block;
 }
+.socials__logo{
+    filter: brightness(80%);
+}
 li.socials__item:last-child{
     margin-right: 0;
+}
+.socials__logo:hover{
+    filter: brightness(130%);
+    transition: filter .5s;
 }
 
 .info__call {
@@ -53,6 +60,10 @@ li.socials__item:last-child{
     color: #FFFFFF;
     margin-top: 6.5px;
     margin-left: 74px;
+}
+.info__phone:hover{
+    color:  #DA0100;
+    transition: color .5s;
 }
 .nav{
     margin-left: 79px;

@@ -25,6 +25,11 @@
 .central__button{
     margin-top: 52.5px;
 }
+.central__subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.388;
+}
 
 @keyframes beat {
 0%{

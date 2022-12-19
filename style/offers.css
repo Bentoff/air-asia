@@ -95,7 +95,8 @@ li.offers__feature-icon:first-child{
     padding-bottom: 18px;
     margin-top: auto;
 }
-.offers__button--light {
+.offers__button:hover {
     background: #F5170E;
     color: #FFFFFF;
+    transition: background .5s, color .5s;
 }

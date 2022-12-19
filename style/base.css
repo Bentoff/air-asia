@@ -52,6 +52,15 @@ img {
     max-height: 100%;
     border-radius: 5px;
 }
+input,
+textarea {
+    border:none;
+    box-sizing: border-box;
+    outline: none;
+}
+input:focus{
+    border: none;
+}
 .wrapper {
     overflow: hidden;
     min-height: 100%;
@@ -93,6 +102,11 @@ img {
     font-size: 14px;
     line-height: 1.357;
 }
+.button:hover{
+    background: #DA0100;
+    box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+    transition: box-shadow .5s, background .5s;
+}
 .button--light{
     background: #F2F2F2;
     color: #F5170E;
@@ -115,4 +129,5 @@ img {
 .button-details:hover{
     background: #F5170E;
     color: #FFFFFF;
+    transition: background .5s, color .5s;
 }
