@@ -90,7 +90,7 @@
     left: 29px;
     width: 160px;
     height: 80px;
-    background: url(img/dropdown.png) no-repeat;
+    background: url(/img/dropdown.png) no-repeat;
     padding: 22px 19px 15px;
     right: -99999px;
     opacity: 0;
