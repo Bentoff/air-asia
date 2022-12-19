@@ -44,6 +44,10 @@
     font-size: 14px;
     line-height: 1.357;
 }
+.contacts{
+    display: inline-flex;
+    flex-direction: column;
+}
 .contacts__phone {
     font-style: normal;
     font-weight: 400;
@@ -51,13 +55,54 @@
     line-height: 1.01;
 }
 .contacts__info {
-    float: right;
+    float: left;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 1.2;
     text-decoration: underline;
+    padding-left: 90px;
 }
 .menu__link:hover{
     color:  #DA0100;
+    transition: color .5s;
+}
+.contacts__dropdown{
+    position: relative;
+    display: inline-flex;
+}
+.contacts__dropdown:hover .dropdown__menu{
+    right: 0;
+    opacity: 1;
+}
+.dropdown__menu::before{
+    content: "";
+    display: block;
+    height: 10px;
+    left: 0;
+    right: 0;
+    top: -10px;
+    position: absolute;
+}
+.dropdown__menu{
+    position: absolute;
+    top: 100%;
+    left: 29px;
+    width: 160px;
+    height: 80px;
+    background: url(/img/dropdown.png) no-repeat;
+    padding: 22px 19px 15px;
+    right: -99999px;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+.dropdown__item{
+    font-weight: 700;
+    font-size: 13px;
+    color: #1E1F20;
+    margin-bottom: 2px;
+}
+.dropdown__item:last-child{
+    font-weight: 600;
+    margin-bottom: 0px;
 }

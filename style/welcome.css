@@ -1,0 +1,49 @@
+.welcome{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/screen.jpg) center bottom /cover no-repeat;
+}
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: beat 1.1s ease-in;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+.central .logo__img{    
+    width: 279px;
+    height: 119px;
+}
+.central__button{
+    margin-top: 52.5px;
+}
+
+@keyframes beat {
+0%{
+    transform: scale(0.7);
+}
+25%{
+    transform: scale(1.15);
+}
+50%{
+    transform: scale(0.9);
+}
+75%{
+    transform: scale(1.1);
+}
+90%{
+    transform: scale(0.95);
+}
+100%{
+    opacity: 1;
+    transform: scale(1);
+}
+}

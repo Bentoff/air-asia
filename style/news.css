@@ -101,4 +101,5 @@ li.paginator__item:last-child {
 .paginator__link:hover {
     background:#FFFFFF;
     color: #F5170E;
+    transition: background .5s,color .5s;
 }
