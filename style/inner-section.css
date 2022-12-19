@@ -34,4 +34,5 @@
 }
 .partners__link:hover{
     filter: none;
+    transition: filter 1s;
 }

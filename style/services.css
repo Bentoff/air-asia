@@ -2,7 +2,7 @@
     background: #F2F2F2;
     color: #303030;
     padding-top: 98px;
-    padding-bottom: 91.5px;
+    padding-bottom: 84.5px;
 }
 .services{
     display: flex;
@@ -47,7 +47,10 @@
     color: #000000;
 }
 .paginator--light-theme .paginator__link:hover,
-.paginator--light-theme .paginator__link:active{ 
+.paginator--light-theme .paginator__item--active .paginator__link
+{ 
     color: white;
-    background-color:  #F5170E;
+    background: #F5170E;
+    transition: color .5s, background .5s;
 }
+
