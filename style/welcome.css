@@ -19,7 +19,7 @@
     animation-fill-mode: forwards;
     animation-delay: 1s;
     width: 591px;
-    height: 248px;
+    min-height: 248px;
 }
 .central__bg{
     position: absolute;
@@ -30,6 +30,7 @@
 .central .logo__img{    
     width: 279px;
     height: 119px;
+    margin-top: 40px;
 }
 .central__button{
     margin-top: 52.5px;
@@ -37,7 +38,7 @@
 .central__subtitle{
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.388;
+    line-height: 1.1;
 }
 
 @keyframes beat {
