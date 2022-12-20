@@ -11,12 +11,21 @@
 }
 .central {
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
     animation: beat 1.1s ease-in;
     opacity: 0;
     animation-fill-mode: forwards;
     animation-delay: 1s;
+    width: 591px;
+    height: 248px;
+}
+.central__bg{
+    position: absolute;
+    bottom: 50px;
+    z-index: -5;
+    overflow: hidden;
 }
 .central .logo__img{    
     width: 279px;
