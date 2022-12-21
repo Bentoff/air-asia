@@ -1,0 +1,105 @@
+.news{
+    min-height:600px;
+    margin-top: 127px;
+    display: block;
+}
+.news__title{
+    margin-bottom: 51px;
+}
+.news__list{
+    display:flex;
+    justify-content: space-between;
+}
+.news__item{
+    width: calc(100% /2 - 12px);
+    min-height: 394px;
+    border-radius: 5px;
+    padding: 252.5px 31px 26px;
+    display: flex;
+}   
+.news__plain{
+    background: url(../img/plain.jpg) no-repeat;
+}
+.news__surfer{
+    background: url(../img/Surfer.jpg) no-repeat;
+}
+.news__date{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 12.5px;
+}
+.news__subtitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom:2px;
+    max-width: 417px;
+}
+.news__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3125;
+}
+.paginator {
+    height: 32px;
+}
+.paginator__container{
+    display: flex;
+    justify-content:center;
+
+}
+.paginator__container--main{
+    margin-top: 54px;
+}
+
+.paginator__display{
+    height: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-right: 24px;
+    color: #FFFFFF;
+    display: flex;
+}
+.paginator__list{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    min-width: 235px;
+}
+.paginator__item {
+    display: flex;
+    text-align:  center;
+}
+li.paginator__item:last-child {
+    margin-right: 0;
+}
+
+.paginator__link {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-right:0;
+}
+.paginator__item--active .paginator__link {
+    background:#FFFFFF;
+    color: #F5170E;
+}
+.paginator__link:hover {
+    background:#FFFFFF;
+    color: #F5170E;
+    transition: background .5s,color .5s;
+}
